@@ -8,7 +8,7 @@ The core objective is to evaluate whether **environmental context**—such as gr
 
 ---
 
-## 📥 Cloning the Repository
+### 📥 Cloning the Repository
 
 First, clone the project repository to your local machine.
 
@@ -26,22 +26,22 @@ cd <your-repository-name>
 
 After cloning the repository, proceed with setting up the virtual environment as described below.
 
-# Environment Setup & Installation
+### Environment Setup & Installation
 
 This project is implemented in Python and uses a combination of tabular machine learning models, neural networks, and satellite imagery.
 It is recommended to run all experiments inside a **virtual environment**
 
 ---
 
-## 🐍 Creating a Virtual Environment
+#### 🐍 Creating a Virtual Environment
 
-### Windows (PowerShell)
+##### Windows (PowerShell)
 
 ```powershell
 python -m venv venv
 ```
 
-### macOS / Linux
+##### macOS / Linux
 
 ```bash
 python3 -m venv venv
@@ -49,15 +49,15 @@ python3 -m venv venv
 
 ---
 
-## ▶ Activating the Virtual Environment
+#### ▶ Activating the Virtual Environment
 
-### Windows
+##### Windows
 
 ```powershell
 venv\Scripts\activate
 ```
 
-### macOS / Linux
+##### macOS / Linux
 
 ```bash
 source venv/bin/activate
@@ -67,7 +67,7 @@ Once activated, your terminal should show `(venv)`.
 
 ---
 
-## 📥 Installing Dependencies
+### 📥 Installing Dependencies
 
 Upgrade `pip` and install all required packages:
 
@@ -78,33 +78,13 @@ pip install -r requirements.txt
 
 ---
 
-## 📄 `requirements.txt`
-
-The following dependencies are required to reproduce the experiments:
-
-```txt
-numpy
-pandas
-scikit-learn
-catboost
-torch
-torchvision
-tqdm
-requests
-python-dotenv
-matplotlib
-seaborn
-```
-
----
-
-## 🔐 Environment Variables
+#### 🔐 Environment Variables
 
 This project uses a `.env` file to manage sensitive configuration.
 
 An empty `.env` file is included in the repository as a **template**.
 
-### Required variables
+##### Required variables
 
 Edit the `.env` file and add:
 
@@ -119,7 +99,7 @@ The environment variables are loaded at runtime using `python-dotenv`.
 
 ---
 
-## 🛰️ Data Acquisition (Satellite Imagery)
+### 🛰️ Data Acquisition (Satellite Imagery)
 
 Satellite images are downloaded using the Mapbox Static Images API based on property latitude and longitude.
 
