@@ -1,0 +1,11 @@
+numpy
+pandas
+scikit-learn
+catboost
+torch
+torchvision
+tqdm
+requests
+python-dotenv
+matplotlib
+seaborn
