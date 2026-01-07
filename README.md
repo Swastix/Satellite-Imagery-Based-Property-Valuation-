@@ -117,11 +117,6 @@ This script:
 
 ---
 
-Here is a **clean, professional, README-ready description** for both notebooks.
-You can **copy-paste this directly** under your *Code Repository* section.
-
----
-
 ### 📓 `preprocessing.ipynb`
 
 This notebook contains the **exploratory analysis, preprocessing, and feature engineering pipeline** used in the project.
